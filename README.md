@@ -7,35 +7,31 @@ This project involves data analysis and visualization of oil and gas production 
  - Work with databases like SQLite and PostgreSQL.
 
 ### Datasets
-Norway Wellbores:
+ 1. Norway Wellbores:
+    - Stored in a SQLite database (wells_data.db, table wells_data).
+ 2. Volve Production Data:
+    - Provided as an Excel file (Volve_production_data.xlsx) with two tabs:
+        - Daily Production Data
+        - Monthly Production Data
 
-Stored in a SQLite database (wells_data.db, table wells_data).
-Volve Production Data:
 
-Provided as an Excel file (Volve_production_data.xlsx) with two tabs:
-Daily Production Data
-Monthly Production Data
-Key Features
-Data Exploration
+### Key Features
+   1. Data Exploration
+      - Load and explore well and production datasets.
+      - Handle multi-tab Excel files and databases.
+  2. Database Operations
+      - Convert SQLite database to an Excel file and import it into a new SQLite or PostgreSQL database.
+  3. Well Data Visualization
+     - Scatter plots for bottom hole temperature vs. depth and drilling days vs. depth.
+     - Calculate and display average total depth grouped by "Age At Td".
+  4. Production Data Analysis
+     - Monthly oil, gas, and water production trends for specific wellbores.
+     - Aggregate oil production by wellbore.
+  5. Merged Data Analysis
+     - Merge well data and production data for deeper insights.
+     - Analyze the correlation between total depth and oil production.
 
-Load and explore well and production datasets.
-Handle multi-tab Excel files and databases.
-Database Operations
-
-Convert SQLite database to an Excel file and import it into a new SQLite or PostgreSQL database.
-Well Data Visualization
-
-Scatter plots for bottom hole temperature vs. depth and drilling days vs. depth.
-Calculate and display average total depth grouped by "Age At Td".
-Production Data Analysis
-
-Monthly oil, gas, and water production trends for specific wellbores.
-Aggregate oil production by wellbore.
-Merged Data Analysis
-
-Merge well data and production data for deeper insights.
-Analyze the correlation between total depth and oil production.
-Technologies Used
-Python: pandas, seaborn, matplotlib, sqlite3.
-Databases: SQLite, PostgreSQL.
-Data Visualization: seaborn, matplotlib.
+## Technologies Used
+ - Python: pandas, seaborn, matplotlib, sqlite3.
+ - Databases: SQLite, PostgreSQL.
+ - Data Visualization: seaborn, matplotlib.
