@@ -31,7 +31,3 @@ This project involves data analysis and visualization of oil and gas production 
      - Merge well data and production data for deeper insights.
      - Analyze the correlation between total depth and oil production.
 
-## Technologies Used
- - Python: pandas, seaborn, matplotlib, sqlite3.
- - Databases: SQLite, PostgreSQL.
- - Data Visualization: seaborn, matplotlib.
